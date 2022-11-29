@@ -33,4 +33,4 @@ jobs:
         password: ${{secrets.DOCKERHUB_TOKEN}}
         repository: woongzz0110/sysbench
         readme-filepath: README.md
-        short-description: sysbench 폼 미쳤다
+        short-description: ${{github.event.repository.description}}
